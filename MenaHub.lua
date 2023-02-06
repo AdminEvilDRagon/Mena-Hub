@@ -6,7 +6,7 @@ local Tab = Window:CreateTab("Games")
 
 local Page1 = Tab:CreateFrame("Rebirth champions x")
 local Page2 = Tab:CreateFrame("+1 one Block every second")
-local Page3 = Tab:CreateFrame("Game 3")
+local Page3 = Tab:CreateFrame("Car Factory Tycoon")
 local Page4 = Tab:CreateFrame("Game 4")
 local Page5 = Tab:CreateFrame("Game 5")
 
