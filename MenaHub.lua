@@ -22,3 +22,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminEvilDRagon/-1-bl
 CreateNotification("Succesfully", "Succesfully executed!, you can close The MainHub now (;", function(v)
 end)
 end)
+
+
+Button = Page3:CreateButton("Car Factory Tycoon", "Execute the script for Car Factory Tycoon", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminEvilDRagon/Car-Factory-Tycoon/main/Car%20Factory%20Tycoon.lua", true))()
+CreateNotification("Succesfully", "Succesfully executed!, you can close The MainHub now (;", function(v)
+end)
+end)
