@@ -18,7 +18,7 @@ end)
 
 
 Button = Page2:CreateButton("+1 one Block every second", "Execute the script for +1 one Block every second", function()
-loadstring(game:HttpGet(" https://raw.githubusercontent.com/AdminEvilDRagon/-1-block-every-second/main/%2B1%20block%20every%20second.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminEvilDRagon/-1-block-every-second/main/%2B1%20block%20every%20second.lua", true))()
 CreateNotification("Succesfully", "Succesfully executed!, you can close The MainHub now (;", function(v)
 end)
 end)
