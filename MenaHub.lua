@@ -29,3 +29,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminEvilDRagon/Car-F
 CreateNotification("Succesfully", "Succesfully executed!, you can close The MainHub now (;", function(v)
 end)
 end)
+
+Button = Page4:CreateButton("+1 Damage Every Second", "Execute the script for +1 Damage Every Second", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminEvilDRagon/-1-Damage-Every-Second/main/%2B1%20Damage%20Every%20Second.lua", true))()
+CreateNotification("Succesfully", "Succesfully executed!, you can close The MainHub now (;", function(v)
+end)
+end)
